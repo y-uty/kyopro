@@ -283,6 +283,10 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 # アフィン変換
 ## ABC189E - Rotate and Flip
 
+# その他テクニック
+## 歯抜けクエリ 初めから1つ手前までと後ろから1つ後までの情報を組み合わせて使う
+## ABC279E - Cheating Amidakuji
+
 
 # 約数列挙
 def make_divisors(n):
