@@ -136,7 +136,11 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC271D - Flip and Adjust ## 部分和問題と復元
 ## ABC274D - Robot Arms 2 ## 部分和DP x, yを独立に考える
 ## ABC274E - Booster ## bitDP TSP
+
+# 確率dp・期待値dp
+## EDPC I - Coins ## 状態を増やして、遷移でシンプルに確率の積の和をとっていく
 ## ABC275E - Sugoroku 4 ## 確率mod998244353 -> 確率1/Mをかける = Mの逆元をかける
+## ABC280E - Critical Hit ## 遷移元の期待値を確率で重みつけ平均とって、+1すれば繊維先の期待値
 
 # 桁dp
 ## ABC189D - Logical Expression
