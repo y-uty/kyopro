@@ -139,6 +139,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 
 # 確率dp・期待値dp
 ## EDPC I - Coins ## 状態を増やして、遷移でシンプルに確率の積の和をとっていく
+## EDPC J - Sushi ## 期待値dp 自己ループを、dp遷移式の整理で消去する
 ## ABC275E - Sugoroku 4 ## 確率mod998244353 -> 確率1/Mをかける = Mの逆元をかける
 ## ABC280E - Critical Hit ## 遷移元の期待値を確率で重みつけ平均とって、+1すれば繊維先の期待値
 
