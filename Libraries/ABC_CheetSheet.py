@@ -111,6 +111,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## TessokuA79 - River Crossing ## 区間の総和を求めるために累積和を別で計算
 ## TessokuB21 - Longest Subpalindrome ## 区間DP 長くしていく
 ## TessokuB23 - Traveling Salesman Problem ## シンプルなTSP
+## PAST011L - Almost LCS ## 文字の書き換え数を状態に追加
 ## ABC060D - Simple Knapsack ## 3次元dp; ナップザックの重さの範囲が大きいが、特殊な制約を利用して立式
 ## ABC082D - FT Robot ## 部分和DP x, yを独立に 配列の取り方に注意しないとTLE/MLE
 ## ABC104C - All Green ## 回数制限付きで繰り返し選ぶ+ボーナスあり 状態と遷移を工夫して計算量をおさめる
@@ -240,6 +241,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC185F - Range Xor Query
 ## ABC179D - Leaping Tak ## 1つ前までの区間和で現在地を更新
 ## ABC190F - Shift and Inversions ## 転倒数
+## ABC221E - LEQ ## ある値a以下となるiの数 -> BIT[i]に登場回数を加算していって、区間和[0, a]
 
 # セグメント木
 ## TessokuA58 - RMQ (Range Maximum Queries) ## 一点更新・区間Max
