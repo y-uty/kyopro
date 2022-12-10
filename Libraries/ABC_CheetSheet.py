@@ -87,6 +87,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC119C - Synthetic Kadomatsu ## 使う/使わないでなく使い方4通りの全探索 O(4^N)
 ## ABC175D - Moving Piece ## サイクル+余りだが、単調性がないので余りを決めてからサイクル数を計算
 
+
 # bit全探索
 ## ABC147C - HonestOrUnkind2
 ## ABC173C - H and V
@@ -115,6 +116,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC060D - Simple Knapsack ## 3次元dp; ナップザックの重さの範囲が大きいが、特殊な制約を利用して立式
 ## ABC082D - FT Robot ## 部分和DP x, yを独立に 配列の取り方に注意しないとTLE/MLE
 ## ABC104C - All Green ## 回数制限付きで繰り返し選ぶ+ボーナスあり 状態と遷移を工夫して計算量をおさめる
+## ABC118D - Match Matching ## DP復元
 ## ABC122D - We Like AGC ## x文字前を状態として持ち禁止文字のパターンを遷移させないように
 ## ABC135D - Digits Parade ## 桁DP
 ## ABC142E - Get Everything ## bitDP N個ON/OFF -> 状態が2^N個になる
@@ -151,6 +153,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC250C - Adjacent Swaps
 
 # 累積和/いもす法
+## ABC059C - Sequence ## 累積和に対する制約を満たすための調整は、前から決めていく(後ろを変えても前に影響しない)
 ## ABC105D - Candy Distribution ## 累積和の剰余
 ## ABC106D - AtCoder Express 2 ## 区間を2次元座標にプロットして累積和
 ## ABC153F - Silver Fox vs Monster ## 区間の両端が単調増加->左端を順に参照しながらimosできる
@@ -220,6 +223,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 
 # Union-Find
 ## ABC120D - Decayed Bridges ## 辺を順番に削除=>逆順にみて辺を追加
+## ABC126E - 1 or 2 ## 1個決めれば芋づる式に求まるところをつなげる
 ## ABC157D - Friend Suggestions
 ## ABC183F - Confluence ## UFの連結成分内のクラス分けはdictで / マージテク
 ## ABC206D - KAIBUNsyo
@@ -267,6 +271,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 
 # 平衡二分探索木
 ## TessokuA55 - Set
+## PAST010M - Ranking
 ## ABC217D - Cutting Woods
 ## ABC228D - Linear Probing
 ## ABC241D - Sequence Query
