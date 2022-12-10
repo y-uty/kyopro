@@ -139,6 +139,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC271D - Flip and Adjust ## 部分和問題と復元
 ## ABC274D - Robot Arms 2 ## 部分和DP x, yを独立に考える
 ## ABC274E - Booster ## bitDP TSP
+## ABC281D - Max Multiple ## i個中j個選んだ余りk
 
 # 確率dp・期待値dp
 ## EDPC I - Coins ## 状態を増やして、遷移でシンプルに確率の積の和をとっていく
@@ -276,6 +277,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC228D - Linear Probing
 ## ABC241D - Sequence Query
 ## ABC260D - Draw Your Cards
+## ABC281E - Least Elements
 
 # 平面走査
 ## ABC245E - Wrapping Chocolate ## std::multiset(多重集合)
