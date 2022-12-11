@@ -113,6 +113,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## TessokuB21 - Longest Subpalindrome ## 区間DP 長くしていく
 ## TessokuB23 - Traveling Salesman Problem ## シンプルなTSP
 ## PAST011L - Almost LCS ## 文字の書き換え数を状態に追加
+## ABC054D - Mixing Experiment ## 3次元dp
 ## ABC060D - Simple Knapsack ## 3次元dp; ナップザックの重さの範囲が大きいが、特殊な制約を利用して立式
 ## ABC082D - FT Robot ## 部分和DP x, yを独立に 配列の取り方に注意しないとTLE/MLE
 ## ABC104C - All Green ## 回数制限付きで繰り返し選ぶ+ボーナスあり 状態と遷移を工夫して計算量をおさめる
@@ -252,6 +253,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## TessokuA58 - RMQ (Range Maximum Queries) ## 一点更新・区間Max
 ## TessokuB58 - Jumping ## dp配列をセグメント木に持つ 一点更新・区間Min
 ## Typical037 - Don't Leave the Spice ## 一点更新・区間Max
+## ABC170E - Smart Infants ## ACL segtreeでの実装, std::multiset
 
 # ダブリング
 ## ABC136D - Gathering Children

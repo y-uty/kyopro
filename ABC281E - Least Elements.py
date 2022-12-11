@@ -15,26 +15,19 @@ def main():
     for i in range(1, N-M+1):
       delete_A = A[i-1]
       insert_A = A[M+i-1]
-
-      # print((delete_A, i-1))
-      # print((insert_A, M+i-1))
       
       # 削除するAが小さい方から何番目か？
       # K番め以下だった場合、ansから引く
       x, _ = avl.find_kth_element(K-1)
-      # print('x:', x)
 
       if x >= delete_A:
         ans -= delete_A
-
-      # print('ans1:', ans)
       
       # 1個前を消す
       avl.delete((delete_A, i-1))
 
       # 小さい方からK番目
       kth_now, idx = avl.find_kth_element(K-1)
-      # print('kth:', kth_now)
 
       if x >= delete_A:
         ans += kth_now
