@@ -128,6 +128,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC180E - Traveling Salesman among Aerial Cities ## bitDP TSP
 ## ABC183E - Queen on Grid ## 来た方向どこからでも一歩でこれる→累積和をとっておく
 ## ABC188E - Peddler ## 売値-買値の最大化 -> (今の売値)-(そこまでの最安値)の最大値
+## ABC190E - Magical Ornament ## BFSで必要な頂点同士の距離の情報だけ集めてからTSP
 ## ABC197E - Traveler ## ある点からx1<x2<...<xkのk点を全て最短で通り終えると、x1,xkのどちらかにいる
 ## ABC212E - Safety Journey ## 制約に着目して、遷移を高速化する前処理を行う
 ## ABC219D - Strange Lunchbox ## 3次元dp[k][i][j]:=i番目まででx=i,y=jとなる最小個数. 状態上限丸め
