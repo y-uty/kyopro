@@ -146,6 +146,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 # 確率dp・期待値dp
 ## EDPC I - Coins ## 状態を増やして、遷移でシンプルに確率の積の和をとっていく
 ## EDPC J - Sushi ## 期待値dp 自己ループを、dp遷移式の整理で消去する
+## ABC263E - Sugoroku 3 ## 期待値dp 自己ループの消去(EDPC Jと同じ) 累積和/BITで高速に貰う
 ## ABC275E - Sugoroku 4 ## 確率mod998244353 -> 確率1/Mをかける = Mの逆元をかける
 ## ABC280E - Critical Hit ## 遷移元の期待値を確率で重みつけ平均とって、+1すれば繊維先の期待値
 
@@ -244,6 +245,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 # BIT
 ## TessokuA59 - RSQ (Range Sum Queries)
 ## TessokuB59 - Number of Inversions ## 転倒数
+## PAST008J - Reverse Array ## k以上の区間の操作回数の総和
 ## ABC157E - Simple String Queries ## BITインスタンスをたくさん
 ## ABC185F - Range Xor Query
 ## ABC179D - Leaping Tak ## 1つ前までの区間和で現在地を更新
