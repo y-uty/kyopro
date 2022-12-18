@@ -95,6 +95,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC269C - Submask ## itertools.productでの実装例
 
 # 二分探索で解を見つける
+## PAST008G - K-th element
 ## ABC098D - Xor Sum 2 ## 左端を固定して、右端を求める
 ## ABC146C - Buy an Integer
 ## ABC174E - Logs ## 連続値の二分探索
@@ -224,6 +225,7 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC235E - MST + 1 ## クエリ先読み; 新たな辺がMSTになれる瞬間に既にオリジナル辺が2頂点を結んでいるかで判定
 ## ABC252E - Road Reduction ## Dijkstraで最短経路木
 ## ABC256E - Takahashi's Anguish ## 最"大"全域木を考えた / Functional Graphでは連結成分ごとの閉路は1個以下
+## ABC282E - Choose Two and Eat One ## N人からペアつくるたびに1人脱落はN-1本の辺を選ぶこと
 
 # Union-Find
 ## ABC120D - Decayed Bridges ## 辺を順番に削除=>逆順にみて辺を追加
@@ -247,7 +249,8 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## TessokuB59 - Number of Inversions ## 転倒数
 ## PAST008J - Reverse Array ## k以上の区間の操作回数の総和
 ## ABC157E - Simple String Queries ## BITインスタンスをたくさん
-## ABC185F - Range Xor Query
+## ABC174F - Range Set Query ## 左から順に情報を更新しながら、クエリ区間の右端の昇順に処理
+## ABC185F - Range Xor Query ## BITで累積xor
 ## ABC179D - Leaping Tak ## 1つ前までの区間和で現在地を更新
 ## ABC190F - Shift and Inversions ## 転倒数
 ## ABC221E - LEQ ## ある値a以下となるiの数 -> BIT[i]に登場回数を加算していって、区間和[0, a]
