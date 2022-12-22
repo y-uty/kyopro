@@ -75,8 +75,10 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC172D - Sum of Divisors ## Nまでのすべての整数の約数個数をエラトステネスの篩でO(NlogN)
 ## ABC177E - Coprime ## 互いに素<=>共通の素因数を持たない
 ## ABC179E - Sequence Sum ## mod Mのもとで取りうる値は0~M-1のM種類; 鳩ノ巣原理
+## ABC228E - Integer Sequence Fair ## フェルマーの小定理 a,pが互いに素 => a^(p-1)%p = 1
 ## ABC254D - Together Square ## 平方数をつくれるか 十分大きい平方数との商に着目
 ## ABC276D - Divide by 2 or 3 ## gcd*(2^p)*(3^q) 操作順序・相互影響は無視できる
+## ABC280D - Factorial and Multiple ## ルジャンドルの定理 K!がxで割れる回数 x, x^2, x^3,...で
 
 # 文字列操作
 ## ABC202D - aab aba baa ## 辞書順は前から決める. 小さい文字を置くと仮定したパターン数とk番目を比較
@@ -254,12 +256,18 @@ for bits in itertools.product([True, False], repeat=len(cand)):
 ## ABC179D - Leaping Tak ## 1つ前までの区間和で現在地を更新
 ## ABC190F - Shift and Inversions ## 転倒数
 ## ABC221E - LEQ ## ある値a以下となるiの数 -> BIT[i]に登場回数を加算していって、区間和[0, a]
+## ABC231F - Jealous Two ## 昇順に見ることでそれ以下の領域だけの個数をBITで数える
+## ABC276F - Double Chance ## 2本のBITで登場順に回数と総和を更新して使う
 
 # セグメント木
+# ACL lazy_segtree: https://atcoder.github.io/ac-library/document_ja/lazysegtree.html
+# 参考: https://betrue12.hateblo.jp/entry/2020/09/22/194541
 ## TessokuA58 - RMQ (Range Maximum Queries) ## 一点更新・区間Max
 ## TessokuB58 - Jumping ## dp配列をセグメント木に持つ 一点更新・区間Min
+## Typical029 - Long Bricks ## ACL:lazy_segtree 区間更新・区間Max
 ## Typical037 - Don't Leave the Spice ## 一点更新・区間Max
-## ABC170E - Smart Infants ## ACL segtreeでの実装, std::multiset
+## ABC170E - Smart Infants ## ACL:segtree, std::multiset
+## ABC223F - Parenthesis Checking ## ACL:lazy_segtree 区間加算・区間Min
 
 # ダブリング
 ## ABC136D - Gathering Children
